@@ -1,11 +1,4 @@
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-} */
-
-
+ 
 .login {
   background: linear-gradient(90deg, #4f7ccf 0%, #6e5dbb 100%);
   font-family: "Roboto", sans-serif;
@@ -13,6 +6,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 610px;
+
 }
 
 .login_form {
