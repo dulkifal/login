@@ -6,17 +6,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 610px;
-
+  
 }
 
 .login_form {
+  /* min-width: 300px; */
   text-align: center;
   background-color: white;
   padding: 3rem;
   border-radius: 1rem;
 
 }
+ 
+
 
 .login_form img {
   max-width: 23rem;
