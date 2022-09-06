@@ -1,0 +1,72 @@
+/* *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+} */
+
+
+.login {
+  background: linear-gradient(90deg, #4f7ccf 0%, #6e5dbb 100%);
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_form {
+  text-align: center;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+
+}
+
+.login_form img {
+  max-width: 23rem;
+}
+
+.login_form form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.login_form form h1 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.login_form form input {
+  outline: none;
+  border: none;
+  border-bottom: solid 1px #ccc;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.login_form form input:focus {
+  outline: none;
+  border-bottom: 3px solid rgba(51, 51, 51, 0.833);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.login_btn {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  background: linear-gradient(90deg, #4f7ccf 28%, #6e5dbb 65%);
+  border-radius: 0.5rem;
+  margin: 1rem 0 2rem;
+  color: #fff;
+}
+
+.forgot {
+  color: rgb(125, 121, 121);
+  font-size: 1.2rem;
+}
+
+.forgot span {
+  color: rgb(52, 52, 181);
+}
